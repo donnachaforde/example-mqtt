@@ -1,0 +1,6 @@
+# ignore files built in the target directory
+target
+
+# ignore intellij project directory
+.idea
+*.iml
