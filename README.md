@@ -6,8 +6,9 @@ Separate Java examples of MQTT Publisher & Subscriber.
 
 ## Requirements
 
-1. JDK 8 & Maven
-3. An MQTT Broker (Check out http://www.hivemq.com)
+* JDK 8 
+* Maven
+* An MQTT Broker (As a suggestion, check out http://www.hivemq.com as a decent option for the demo here. )
 
 
 ## Build & Deployment Instructions
@@ -15,6 +16,8 @@ Separate Java examples of MQTT Publisher & Subscriber.
 1. Clone the repo and build the projects. 
 2. Install your MQTT Broker.
 3. Run the MQTT Subscriber in its own console/shell.
-4. Run the MQTT Publisher in its own console/shell. (You'll need to be quick - the subscriber only hangs around to listen for events for 15 secs by default.)
+4. Run the MQTT Publisher in its own console/shell. 
 
-Output is written to stdout so you should see some send/receive messages in both consoles/shells. 
+**Note:** You'll need to start the `publisher` quickly as the subscriber will only wait to listen for events for 15 secs by default.
+
+Audit/logging output is written to `stdout` so you should see some send/receive messages in both consoles. 
